@@ -39,7 +39,7 @@ const countPositiveFeedbackPercentage = () => {
           neutral={neutral} 
           bad={bad} 
           total={total} 
-          positivePercentage={countPositiveFeedbackPercentage()}/>)
+          positivePercentage={countPositiveFeedbackPercentage}/>)
         : <NotificationMessage message = "There is no feedback"/> }  
       </Section>        
     </MainContainer>
